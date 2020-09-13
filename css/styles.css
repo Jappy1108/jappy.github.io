@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,700&display=swap');
+
+/* ----- MISC Styles ----- */
+
+.text-color {
+    color: #474a8a;
+}
+
+.flex-even {
+    flex: 1;
+    align-items: stretch;
+    padding: 10px;
+}
+
+/* ----- End of MISC Styles ----- */
+
+header .navbar-brand span {
+    padding: 10px;
+    border: 5px solid #474a8a;
+    color: #474a8a;
+    background-color: transparent;
+    font-weight: 700;
+    border-radius: 25px 25px 40px 40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+header .navbar-brand i {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #474a8a;
+    font-size: 24px
+}
+
+header .navbar {
+    background-color: transparent !important;
+}
+
+header .nav-link{
+    color: #474a8a !important;
+    font-size: 18px;
+    
+}
+
+
+.navbar-nav li:last-child {
+    border: 2px solid #474a8a;
+    border-radius: 25px 25px 25px 25px;
+    font-weight: 700;
+}
+
+.jumbotron {
+    width: 100%; height: 86.3vh;
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.frame {
+    width: 250px;
+    height: 250px;
+    min-height: 180px;
+    margin: 50px auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row:nth-child(3) {
+    position: relative;
+}
+
+.row:nth-child(3) .card {
+    position: absolute;
+    top: -180px;
+    width: 83%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row:nth-child(4) .d-flex {
+    height: 250px;
+    
+}
+
+.row:nth-child(4) .d-flex > .flex-even {
+    border-radius: 25px 25px 25px 25px;
+}
+
+#first-layer .flex-even:first-child {
+    background: url('/img/isnpi4.jpg');
+    width: 250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first-layer .flex-even:nth-child(2) {
+    background: url('/img/inspi10.jpg');
+    width: 250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first-layer .flex-even:last-child {
+    background: url('/img/inspi9.jpg');
+    width: 250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second-layer .flex-even:first-child {
+    background: url('/img/isnpi3.jpg');
+    width: 250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second-layer .flex-even:nth-child(2) {
+    background: url('/img/inspi11.jpg');
+    width: 250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second-layer .flex-even:last-child {
+    background: url('/img/inspi8.jpg');
+    width: 250px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.span12 a {
+    border: 2px solid #474a8a;
+    padding: 20px;
+    border-radius: 25px 25px 25px 25px;
+    color: #474a8a;
+}
